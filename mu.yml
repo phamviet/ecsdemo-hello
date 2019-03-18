@@ -4,3 +4,8 @@ service:
   port: 80
   pathPatterns:
     - /hello
+  pipeline:
+    acceptance:
+      environment: dev
+    production:
+      environment: prod
