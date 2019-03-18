@@ -1,0 +1,6 @@
+service:
+  name: hello
+  healthEndpoint: /
+  port: 80
+  pathPatterns:
+    - /hello
